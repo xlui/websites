@@ -5,6 +5,11 @@ i, ul, li, section, img, footer {
 }
 
 html {
+  font-family: "source code pro", consolas, "Microsoft YaHei", "hiragino sans gb", "wenquanyi micro hei", sans-serif;
+  /* font-family: "lucida grande"; */
+  /* font-family: STXihei; */
+  /* font-family: "Microsoft YaHei"; */
+  /* font-family: STXihei, "Microsoft YaHei"; */
   height: 100%;
 }
 
@@ -53,6 +58,30 @@ body {
   transform: translateY(-5px)
 }
 
+.main .box .project .desc {
+  color: gray;
+  font-size: 12px;
+  /* padding-top: 10px; */
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical
+}
+
+.footer {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* 暂未用到 */
+/*
 .main .box .project .no-logo {
   color: #3273dc;
   font-weight: 700;
@@ -77,25 +106,4 @@ body {
   border-radius: 50%;
   vertical-align: middle
 }
-
-.main .box .project .desc {
-  color: gray;
-  font-size: 12px;
-  padding-top: 10px;
-  height: 35px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical
-}
-
-.footer {
-  position: fixed;
-  margin: auto;
-  left: 0;
-  right: 0;
-  bottom: 30px;
-  text-align: center;
-  font-size: 16px;
-}
+*/

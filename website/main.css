@@ -1,5 +1,5 @@
 html, body, aside, div, p, nav, a,
-i, ul, li, section, img, footer {
+i, ul, li, section, img, footer, hr {
     padding: 0;
     margin: 0;
 }
@@ -17,6 +17,17 @@ body {
     font-size: 12px;
     padding: 0;
     background-color: #eee;
+}
+
+hr {
+    margin: 5px 40px;
+}
+
+footer {
+    margin-top: -100px;
+    height: 90px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .main {
@@ -40,6 +51,8 @@ body {
 
 .main .box .project {
     width: 19%;
+    min-width: 200px;
+    max-width: 300px;
     border: 1px solid #e4ecf3;
     box-shadow: 1px 2px 3px #f2f6f8;
     border-radius: 7px;
@@ -75,11 +88,4 @@ body {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical
-}
-
-.footer {
-    margin-top: -90px;
-    height: 90px;
-    font-size: 16px;
-    text-align: center;
 }
